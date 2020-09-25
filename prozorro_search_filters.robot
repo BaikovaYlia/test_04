@@ -50,8 +50,30 @@ Test Procedure type search filter
     Verify belowThreshold Procedure type
     Back on Main Page
 
-#Test Suite Teardown
-    #Close Browser
+
+Test Value Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  value_search_filter
+    Click on value search filter
+    SLEEP  3s
+    Input test seach value
+    SLEEP  3s
+    Choose first search result
+    SLEEP  3s
+    Get tender value
+    Back on Main Page
+
+Test Region Search Filter
+    Click on place search filter
+    SLEEP  3s
+    Choose Kyiv Search Filter
+    SLEEP  3s
+    Choose first search result
+    SLEEP  3s
+    Verife place search
+
+Test Suite Teardown
+    Close Browser
 
 
 
