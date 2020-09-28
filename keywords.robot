@@ -9,7 +9,6 @@ ${data_search_filter}       xpath=//*[@id="buttons"]/button[6]
 ${region_search_filter}     xpath=//*[@id="buttons"]/button[8]
 ${status_search_filter}     xpath=//*[@id="buttons"]/button[9]
 
-
 ${active_tendering_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
 ${auction_search_status}            xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="auction"]
 ${active.qualification_search_status}  xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.qualification"]
@@ -35,6 +34,12 @@ ${Zhytomyr region_search}           xpath=//*[@id="blocks"]/div[@class="block bl
 ${Volyn region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="43-45"]
 
 
+
+${active_tendering_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
+
+${belowThreshold_procedure_type}    xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="belowThreshold"]
+
+${Kyiv_search}                      xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="01-06"]
 
 ${key_word_input}           xpath=//*[@id="blocks"]/div/input
 ${first_search_result}      xpath=//*[@id="result"]/div[@class="items-list"][1]//a
@@ -130,6 +135,7 @@ Click on place search filter
 Choose Kyiv Search Filter
     Click Element  ${Kyiv_search}
 
+
 Choose Kyiv Search Filter
     Click Element  ${Luhansk region_search}
 Choose Kyiv Search Filter
@@ -140,7 +146,14 @@ Choose Kyiv Search Filter
 Choose Kyiv Search Filter
     Click Element  ${Volyn region_search}
 
+
 Verife place search
     Element Should Contain  ${procurententity_place}  Київ
+
+
+
+
+
+
 
 
