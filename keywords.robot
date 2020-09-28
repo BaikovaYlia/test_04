@@ -113,7 +113,7 @@ Choose competitiveDialogueEU.stage2 Procedure type
 
 
 Verify belowThreshold Procedure type
-    Element Should Contain  ${tender_status_procedure_type_line}  Спрощена
+   Element Should Contain  ${tender_status_procedure_type_line}  Спрощена
 
 Click on value search filter
     Click Button  ${value_search}
@@ -149,6 +149,34 @@ Choose Kyiv Search Filter
 
 Verife place search
     Element Should Contain  ${procurententity_place}  Київ
+
+Verify aboveThresholdUA Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Відкриті
+
+Verify aboveThresholdEU Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Відкриті торги з публікацією англійською мовою
+
+Verify negotiation Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Переговорна процедура
+
+Verify negotiation.quick Procedure type
+
+  Element Should Contain  ${tender_status_procedure_type_line}  Переговорна процедура (скорочена)
+
+Verify competitiveDialogueUA Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Конкурентний діалог 1-ий етап
+
+Verify competitiveDialogueEU Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Конкурентний діалог з публікацією англійською мовою 1-ий етап
+
+Verify competitiveDialogueUA.stage2 Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Конкурентний діалог 2-ий етап
+
+Verify competitiveDialogueEU.stage2 Procedure type
+  Element Should Contain  ${tender_status_procedure_type_line}  Конкурентний діалог з публікацією англійською мовою 2-ий етап
+
+
+
 
 
 

@@ -57,6 +57,7 @@ Test Procedure type search filter
     SLEEP  3s
     Verify negotiation Procedure type
     Back on Main Page
+
 Test Procedure type search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
@@ -68,6 +69,7 @@ Test Procedure type search filter
     SLEEP  3s
     Verify negotiation.quick Procedure type
     Back on Main Page
+
 Test Procedure type search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
