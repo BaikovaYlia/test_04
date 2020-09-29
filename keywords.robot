@@ -62,74 +62,45 @@ ${procurententity_place}    xpath=//*[@class="tender--customer margin-bottom"]/t
 Back on Main Page
     Click Element  ${main_page}
 
-Click on Key Word search filter
-    Click Button  ${key_word_search_filter}
+Choose first search result
+    Click Element  ${first_search_result}
 
 Input Test Keyword
     Input text  ${key_word_input}  ${test_keyword}
 
-Choose first search result
-    Click Element  ${first_search_result}
+Input test seach value
+    Input Text  ${value_from}  2000
+    Input Text  ${value_to}  3000
+
+Get tender value
+    ${value_of_tender}=  Get Text  ${tender_value}
+    Log  ${value_of_tender}
+
+######################################################################
+#                   Click on seafch filter
+######################################################################
+
+Click on data search filter
+    Click Button  ${data_search_filter}
+
+Click on place search filter
+    Click Button  ${region_search_filter}
+
+Click on value search filter
+    Click Button  ${value_search}
+
+Click on Procedure type search filter
+    Click Element  ${procedure_type_search}
+
+Click on Key Word search filter
+    Click Button  ${key_word_search_filter}
 
 Click on Status search filter
     Click Button  ${status_search_filter}
 
-Choose active tendering status
-    Click Element  ${active_tendering_search_status}
-
-Choose active.qualification status
-    Click Element  ${active.qualification_search_status}
-
-Choose active.awarded status
-    Click Element  ${active.awarded_search_status}
-
-Choose active.pre-qualification status
-    Click Element  ${active.pre-qualification_search_status}
-
-Choose unsuccessful status
-    Click Element  ${active.unsuccessful_search_status}
-
-Choose cancelled status
-    Click Element  ${active.cancelled_search_status}
-
-Choose complete status
-    Click Element  ${active.complete_search_status}
-
-Choose active.qualification.stand-still status
-    Click Element  ${active.qualification.stand-still_search_status}
-
-Choose active.auction status
-    Click Element  ${active.auction_search_status}
-
-Verify Tender Status Active Tendering
-    Element Should Contain  ${tender_status_procedure_type_line}  Подання пропозицій
-
-Verify Tender Status Active.Qualification
-    Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця
-
-Verify Tender Status Active.Awarded
-    Element Should Contain  ${tender_status_procedure_type_line}  Пропозиції розглянуті
-
-Verify Tender Status Active.pre-qualification
-    Element Should Contain  ${tender_status_procedure_type_line}  Прекваліфікація
-
-Verify Tender Status unsuccessful
-    Element Should Contain  ${tender_status_procedure_type_line}  Торги не відбулися
-
-Verify Tender Status cancelled
-    Element Should Contain  ${tender_status_procedure_type_line}  Торги відмінено
-
-Verify Tender Status complete
-    Element Should Contain  ${tender_status_procedure_type_line}  Завершена
-
-Verify Tender Status active.auction
-    Element Should Contain  ${tender_status_procedure_type_line}  Аукціон
-
-Verify Tender Status active.qualification.stand-still
-    Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця (період оскарження)
-
-Click on Procedure type search filter
-    Click Element  ${procedure_type_search}
+######################################################################
+#                   Choose search procedure type
+######################################################################
 
 Choose belowThreshold Procedure type
      Click Element  ${belowThreshold_procedure_type}
@@ -158,25 +129,9 @@ Choose competitiveDialogueUA.stage2 Procedure type
 Choose competitiveDialogueEU.stage2 Procedure type
      Click Element  ${competitiveDialogueEU.stage2_procedure_type}
 
-Verify belowThreshold Procedure type
-   Element Should Contain  ${tender_status_procedure_type_line}  Спрощена
-
-Click on value search filter
-    Click Button  ${value_search}
-
-Input test seach value
-    Input Text  ${value_from}  2000
-    Input Text  ${value_to}  3000
-
-Get tender value
-    ${value_of_tender}=  Get Text  ${tender_value}
-    Log  ${value_of_tender}
-
-Click on data search filter
-    Click Button  ${data_search_filter}
-
-Click on place search filter
-    Click Button  ${region_search_filter}
+######################################################################
+#                   Choose search region
+######################################################################
 
 Choose Kyiv Search Filter
     Click Element  ${Kyiv_search}
@@ -193,6 +148,41 @@ Choose Zhytomyr region Search Filter
 Choose Volyn regio Search Filter
     Click Element  ${Volyn region_search}
 
+######################################################################
+#                   Choose search procedure status
+######################################################################
+
+Choose active tendering status
+    Click Element  ${active_tendering_search_status}
+
+Choose active.qualification status
+    Click Element  ${active.qualification_search_status}
+
+Choose active.awarded status
+    Click Element  ${active.awarded_search_status}
+
+Choose active.pre-qualification status
+    Click Element  ${active.pre-qualification_search_status}
+
+Choose unsuccessful status
+    Click Element  ${active.unsuccessful_search_status}
+
+Choose cancelled status
+    Click Element  ${active.cancelled_search_status}
+
+Choose complete status
+    Click Element  ${active.complete_search_status}
+
+Choose active.qualification.stand-still status
+    Click Element  ${active.qualification.stand-still_search_status}
+
+Choose active.auction status
+    Click Element  ${active.auction_search_status}
+
+######################################################################
+#                   Verify region of procedure
+######################################################################
+
 Verife place search
     Element Should Contain  ${procurententity_place}  Київ
 
@@ -208,6 +198,12 @@ Verife place search
 Verife place search
     Element Should Contain  ${procurententity_place}  Волинська область
 
+######################################################################
+#                   Verify type of procedure
+######################################################################
+
+Verify belowThreshold Procedure type
+   Element Should Contain  ${tender_status_procedure_type_line}  Спрощена
 
 Verify aboveThresholdUA Procedure type
   Element Should Contain  ${tender_status_procedure_type_line}  Відкриті
@@ -233,6 +229,37 @@ Verify competitiveDialogueUA.stage2 Procedure type
 
 Verify competitiveDialogueEU.stage2 Procedure type
   Element Should Contain  ${tender_status_procedure_type_line}  Конкурентний діалог з публікацією англійською мовою 2-ий етап
+
+######################################################################
+#                   Verify status of procedure
+######################################################################
+
+Verify Tender Status Active Tendering
+    Element Should Contain  ${tender_status_procedure_type_line}  Подання пропозицій
+
+Verify Tender Status Active.Qualification
+    Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця
+
+Verify Tender Status Active.Awarded
+    Element Should Contain  ${tender_status_procedure_type_line}  Пропозиції розглянуті
+
+Verify Tender Status Active.pre-qualification
+    Element Should Contain  ${tender_status_procedure_type_line}  Прекваліфікація
+
+Verify Tender Status unsuccessful
+    Element Should Contain  ${tender_status_procedure_type_line}  Торги не відбулися
+
+Verify Tender Status cancelled
+    Element Should Contain  ${tender_status_procedure_type_line}  Торги відмінено
+
+Verify Tender Status complete
+    Element Should Contain  ${tender_status_procedure_type_line}  Завершена
+
+Verify Tender Status active.auction
+    Element Should Contain  ${tender_status_procedure_type_line}  Аукціон
+
+Verify Tender Status active.qualification.stand-still
+    Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця (період оскарження)
 
 
 
