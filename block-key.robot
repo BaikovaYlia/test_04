@@ -1,5 +1,5 @@
 *** Settings ***
-
+Documentation   Тестування фільтра пошуку "Процедура"
 Library  SeleniumLibrary
 Resource  keywords.robot
 
