@@ -1,5 +1,5 @@
 *** Settings ***
-
+Documentation Testing of Verife place search
 Library  SeleniumLibrary
 Resource  keywords.robot
 
@@ -23,7 +23,7 @@ Test Region Search Filter
     SLEEP  3s
     Verife place search
 
-Test Region Search Filter
+Test Luhansk region Search Filter
     Click on place search filter
     SLEEP  3s
     Choose Luhansk region Search Filter
@@ -31,7 +31,8 @@ Test Region Search Filter
     Choose first search result
     SLEEP  3s
     Verife place search
-Test Region Search Filter
+
+Test Poltavska region Search Filter
     Click on place search filter
     SLEEP  3s
     Choose Poltavska region Search Filter
@@ -39,7 +40,8 @@ Test Region Search Filter
     Choose first search result
     SLEEP  3s
     Verife place search
-Test Region Search Filter
+
+Test Zhytomyr region Search Filter
     Click on place search filter
     SLEEP  3s
     Choose Zhytomyr region Search Filter
@@ -47,15 +49,8 @@ Test Region Search Filter
     Choose first search result
     SLEEP  3s
     Verife place search
-Test Region Search Filter
-    Click on place search filter
-    SLEEP  3s
-    Choose Zhytomyr region Search Filter
-    SLEEP  3s
-    Choose first search result
-    SLEEP  3s
-    Verife place search
-Test Region Search Filter
+
+Test Volyn region Search Filter
     Click on place search filter
     SLEEP  3s
     Choose Volyn region Search Filter
