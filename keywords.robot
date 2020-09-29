@@ -145,7 +145,7 @@ Choose Poltavska region Search Filter
 Choose Zhytomyr region Search Filter
     Click Element  ${Zhytomyr region_search}
 
-Choose Volyn regio Search Filter
+Choose Volyn region Search Filter
     Click Element  ${Volyn region_search}
 
 ######################################################################

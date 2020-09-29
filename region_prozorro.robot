@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation Testing of Verife place search
+Documentation   Тестування фільтра пошуку "Регіон"
 Library  SeleniumLibrary
 Resource  keywords.robot
 
