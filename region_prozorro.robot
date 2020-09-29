@@ -21,7 +21,8 @@ Test Region Search Filter
     SLEEP  3s
     Choose first search result
     SLEEP  3s
-    Verife place search
+    Verife Kyiv place search
+    Back on Main Page
 
 Test Luhansk region Search Filter
     Click on place search filter
@@ -30,7 +31,8 @@ Test Luhansk region Search Filter
     SLEEP  3s
     Choose first search result
     SLEEP  3s
-    Verife place search
+    Verife Luhansk region place search
+    Back on Main Page
 
 Test Poltavska region Search Filter
     Click on place search filter
@@ -39,7 +41,8 @@ Test Poltavska region Search Filter
     SLEEP  3s
     Choose first search result
     SLEEP  3s
-    Verife place search
+    Verife Poltavska region place search
+    Back on Main Page
 
 Test Zhytomyr region Search Filter
     Click on place search filter
@@ -48,7 +51,8 @@ Test Zhytomyr region Search Filter
     SLEEP  3s
     Choose first search result
     SLEEP  3s
-    Verife place search
+    Verife Zhytomyr region place search
+    Back on Main Page
 
 Test Volyn region Search Filter
     Click on place search filter
@@ -57,4 +61,13 @@ Test Volyn region Search Filter
     SLEEP  3s
     Choose first search result
     SLEEP  3s
-    Verife place search
+    Verife Volyn region place search
+    Back on Main Page
+
+
+#Test Suite Teardown
+    #Close Browser
+
+
+
+*** Keywords ***

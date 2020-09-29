@@ -183,19 +183,19 @@ Choose active.auction status
 #                   Verify region of procedure
 ######################################################################
 
-Verife place search
+Verife Kyiv place search
     Element Should Contain  ${procurententity_place}  Київ
 
-Verife place search
+Verife Luhansk region place search
     Element Should Contain  ${procurententity_place}  Луганська область
 
-Verife place search
+Verife Poltavska region place search
     Element Should Contain  ${procurententity_place}  Полтавська область
 
-Verife place search
+Verife Zhytomyr region place search
     Element Should Contain  ${procurententity_place}  Житомирська область
 
-Verife place search
+Verife Volyn region place search
     Element Should Contain  ${procurententity_place}  Волинська область
 
 ######################################################################
