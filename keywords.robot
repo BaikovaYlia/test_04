@@ -183,20 +183,20 @@ Choose active.auction status
 #                   Verify region of procedure
 ######################################################################
 
-Verife Kyiv place search
+Verify Kyiv city search
     Element Should Contain  ${procurententity_place}  Київ
 
-Verife Luhansk region place search
-    Element Should Contain  ${procurententity_place}  Луганська область
+Verify Luhansk region place search
+    Element Should Contain  ${procurententity_place}  Луганська
 
-Verife Poltavska region place search
-    Element Should Contain  ${procurententity_place}  Полтавська область
+Verify Poltavska region place search
+    Element Should Contain  ${procurententity_place}  Полтавська
 
-Verife Zhytomyr region place search
-    Element Should Contain  ${procurententity_place}  Житомирська область
+Verify Zhytomyr region place search
+    Element Should Contain  ${procurententity_place}  Житомирська
 
-Verife Volyn region place search
-    Element Should Contain  ${procurententity_place}  Волинська область
+Verify Volyn region place search
+    Element Should Contain  ${procurententity_place}  Волинська
 
 ######################################################################
 #                   Verify type of procedure
@@ -215,7 +215,6 @@ Verify negotiation Procedure type
   Element Should Contain  ${tender_status_procedure_type_line}  Переговорна процедура
 
 Verify negotiation.quick Procedure type
-
   Element Should Contain  ${tender_status_procedure_type_line}  Переговорна процедура (скорочена)
 
 Verify competitiveDialogueUA Procedure type
