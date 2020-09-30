@@ -35,6 +35,25 @@ ${Luhansk region_search}            xpath=//*[@id="blocks"]/div[@class="block bl
 ${Poltavska region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="36-39"]
 ${Zhytomyr region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="10-13"]
 ${Volyn region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="43-45"]
+${Chernihiv_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="58-60"]
+${Lviv_region_search}               xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="79-82"]
+${Kharkiv_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="58-60"]
+${Donetsk_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="83-87"]
+${Charcov_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="61-64"]
+${Sumy_region_search}               xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="40-42"]
+${Kirivograd_region_search}         xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="25-28"]
+${Transcarpathian_region_search}    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="88-90"]
+${Khmelnytsky_region_search}        xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="29-32"]
+${Odessa_region_search}             xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="65-68"]
+${Chernihiv_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="14-17"]
+${Ternopil_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="46-48"]
+${Ivano-Frankivsk_region_search}    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="76-78"]
+${Kharkiv-Frankivsk_region_search}  xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="61-64"]
+${Vinnytsia_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="21-24"]
+${Nikolaev_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="54-57"]
+${Rivne_region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="33-35"]
+${Dnepropetrovsk_region_search}     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="49-53"]
+${Zaporizhia_region_search}     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="69-72"]
 
 ${active_tendering_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
 
@@ -197,6 +216,57 @@ Verify Zhytomyr region place search
 
 Verify Volyn region place search
     Element Should Contain  ${procurententity_place}  Волинська
+
+Verify Chernivtsi region place search
+    Element Should Contain  ${procurententity_place}  Чернівецька
+
+Verify Lviv region place search
+    Element Should Contain  ${procurententity_place}  Львівська
+
+Verify Kharkiv region place search
+    Element Should Contain  ${procurententity_place}  Харківська
+
+Verify Sumy region place search
+    Element Should Contain  ${procurententity_place}  Сумська
+
+Verify Kirovograd region place search
+    Element Should Contain  ${procurententity_place}  Кіровоградська
+
+Verify Transcarpathian region place search
+    Element Should Contain  ${procurententity_place}  Закарпатська
+
+Verify Khmelnytsky region place search
+    Element Should Contain  ${procurententity_place}  Хмельницька
+
+Verify Odesa region place search
+    Element Should Contain  ${procurententity_place}  Одеська
+
+Verify Chernihiv region place search
+    Element Should Contain  ${procurententity_place}  Чернігівська
+
+Verify Ternopil region place search
+    Element Should Contain  ${procurententity_place}  Тернопільська
+
+Verify Ivano-Frankivsk region place search
+    Element Should Contain  ${procurententity_place}  Івано-Франківська
+
+Verify Kherson region place search
+    Element Should Contain  ${procurententity_place}  Херсонська
+
+Verify Vinnytsia region place search
+    Element Should Contain  ${procurententity_place}  Вінницька
+
+Verify Nikolaev region place search
+    Element Should Contain  ${procurententity_place}  Миколаївська
+
+Verify Rivne region place search
+    Element Should Contain  ${procurententity_place}  Рівненська
+
+Verify Dnepropetrovsk region place search
+    Element Should Contain  ${procurententity_place}  Дніпропетровська
+
+Verify Zaporizhia region place search
+    Element Should Contain  ${procurententity_place}  Запоріська
 
 ######################################################################
 #                   Verify type of procedure
