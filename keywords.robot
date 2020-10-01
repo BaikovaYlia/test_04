@@ -10,50 +10,48 @@ ${data_search_filter}       xpath=//*[@id="buttons"]/button[6]
 ${region_search_filter}     xpath=//*[@id="buttons"]/button[8]
 ${status_search_filter}     xpath=//*[@id="buttons"]/button[9]
 
-${active_tendering_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
-${active.qualification_search_status}  xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.qualification"]
-${active.awarded_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.awarded"]
-${active.pre-qualification_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.pre-qualification"]
-${active.unsuccessful_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="unsuccessful"]
-${active.cancelled_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="cancelled"]
-${active.complete_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="complete"]
-${active.auction_search_status}    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.auction"]
+${active_tendering_search_status}           xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
+${active.qualification_search_status}       xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.qualification"]
+${active.awarded_search_status}             xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.awarded"]
+${active.pre-qualification_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.pre-qualification"]
+${active.unsuccessful_search_status}        xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="unsuccessful"]
+${active.cancelled_search_status}           xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="cancelled"]
+${active.complete_search_status}            xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="complete"]
+${active.auction_search_status}             xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.auction"]
 ${active.qualification.stand-still_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.qualification.stand-still"]
 
-${belowThreshold_procedure_type}    xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="belowThreshold"]
-${aboveThresholdUA_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="aboveThresholdUA"]
-${aboveThresholdEU_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="aboveThresholdEU"]
-${negotiation_procedure_type}       xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="negotiation"]
-${negotiation.quick_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="negotiation.quick"]
-${competitiveDialogueUA_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueUA"]
-${competitiveDialogueEU_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueEU"]
+${belowThreshold_procedure_type}            xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="belowThreshold"]
+${aboveThresholdUA_procedure_type}          xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="aboveThresholdUA"]
+${aboveThresholdEU_procedure_type}          xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="aboveThresholdEU"]
+${negotiation_procedure_type}               xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="negotiation"]
+${negotiation.quick_procedure_type}         xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="negotiation.quick"]
+${competitiveDialogueUA_procedure_type}     xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueUA"]
+${competitiveDialogueEU_procedure_type}     xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueEU"]
 ${competitiveDialogueUA.stage2_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueUA.stage2"]
 ${competitiveDialogueEU.stage2_procedure_type}  xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@data-value="competitiveDialogueEU.stage2"]
 
 ${Kyiv_search}                      xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="01-06"]
-${Luhansk region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="91-94"]
-${Poltavska region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="36-39"]
-${Zhytomyr region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="10-13"]
-${Volyn region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="43-45"]
-${Chernihiv_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="58-60"]
+${Luhansk_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="91-94"]
+${Poltavska_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="36-39"]
+${Zhytomyr_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="10-13"]
+${Volyn_region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="43-45"]
 ${Lviv_region_search}               xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="79-82"]
-${Kharkiv_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="58-60"]
-${Donetsk_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="83-87"]
-${Charcov_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="61-64"]
+${Kharkiv_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="61-64"]
 ${Sumy_region_search}               xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="40-42"]
-${Kirivograd_region_search}         xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="25-28"]
+${Kirovograd_region_search}         xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="25-28"]
 ${Transcarpathian_region_search}    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="88-90"]
 ${Khmelnytsky_region_search}        xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="29-32"]
 ${Odessa_region_search}             xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="65-68"]
-${Chernihiv_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="14-17"]
-${Ternopil_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="46-48"]
 ${Ivano-Frankivsk_region_search}    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="76-78"]
-${Kharkiv-Frankivsk_region_search}  xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="61-64"]
+${Kherson_region_search}            xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="73-75"]
 ${Vinnytsia_region_search}          xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="21-24"]
-${Nikolaev_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="54-57"]
+${Mykolaiv_region_search}           xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="54-57"]
 ${Rivne_region_search}              xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="33-35"]
-${Dnepropetrovsk_region_search}     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="49-53"]
-${Zaporizhia_region_search}     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="69-72"]
+${Dnipropetrovsk_region_search}     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="49-53"]
+${Zaporozhye_region_search}         xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="69-72"]
+${Kyiv_region_search}               xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@data-value="07-09"]
+
+
 
 ${active_tendering_search_status}   xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@data-value="active.tendering"]
 
@@ -167,6 +165,52 @@ Choose Zhytomyr region Search Filter
 Choose Volyn region Search Filter
     Click Element  ${Volyn region_search}
 
+Choose Lviv region Search Filter
+    Click Element  ${Lviv region_search}
+
+Choose Kharkiv region Search Filter
+    Click Element  ${Kharkiv region_search}
+
+Choose Sumy region Search Filter
+    Click Element  ${Sumy region_search}
+
+Choose Kirovograd region Search Filter
+    Click Element  ${Kirovograd region_search}
+
+Choose Transcarpathian region Search Filter
+    Click Element  ${Transcarpathian region_search}
+
+Choose Khmelnytsky region Search Filter
+    Click Element  ${Khmelnytsky region_search}
+
+Choose Odessa region Search Filter
+    Click Element  ${Odessa region_search}
+
+Choose Ivano-Frankivsk region Search Filter
+    Click Element  ${Ivano-Frankivsk region_search}
+
+Choose Kherson region Search Filter
+    Click Element  ${Kherson region_search}
+
+Choose Vinnytsia region Search Filter
+    Click Element  ${Vinnytsia region_search}
+
+Choose Mykolaiv region Search Filter
+    Click Element  ${Mykolaiv region_search}
+
+Choose Rivne region Search Filter
+    Click Element  ${Rivne region_search}
+
+Choose Dnipropetrovsk region Search Filter
+    Click Element  ${Dnipropetrovsk region_search}
+
+Choose Zaporozhye region Search Filter
+    Click Element  ${Zaporozhye region_search}
+
+Choose Kyiv region Search Filter
+    Click Element  ${Kyiv region_search}
+
+
 ######################################################################
 #                   Choose search procedure status
 ######################################################################
@@ -217,9 +261,6 @@ Verify Zhytomyr region place search
 Verify Volyn region place search
     Element Should Contain  ${procurententity_place}  Волинська
 
-Verify Chernivtsi region place search
-    Element Should Contain  ${procurententity_place}  Чернівецька
-
 Verify Lviv region place search
     Element Should Contain  ${procurententity_place}  Львівська
 
@@ -238,14 +279,8 @@ Verify Transcarpathian region place search
 Verify Khmelnytsky region place search
     Element Should Contain  ${procurententity_place}  Хмельницька
 
-Verify Odesa region place search
+Verify Odessa region place search
     Element Should Contain  ${procurententity_place}  Одеська
-
-Verify Chernihiv region place search
-    Element Should Contain  ${procurententity_place}  Чернігівська
-
-Verify Ternopil region place search
-    Element Should Contain  ${procurententity_place}  Тернопільська
 
 Verify Ivano-Frankivsk region place search
     Element Should Contain  ${procurententity_place}  Івано-Франківська
@@ -256,17 +291,20 @@ Verify Kherson region place search
 Verify Vinnytsia region place search
     Element Should Contain  ${procurententity_place}  Вінницька
 
-Verify Nikolaev region place search
+Verify Mykolaiv region place search
     Element Should Contain  ${procurententity_place}  Миколаївська
 
 Verify Rivne region place search
     Element Should Contain  ${procurententity_place}  Рівненська
 
-Verify Dnepropetrovsk region place search
+Verify Dnipropetrovsk region place search
     Element Should Contain  ${procurententity_place}  Дніпропетровська
 
-Verify Zaporizhia region place search
-    Element Should Contain  ${procurententity_place}  Запоріська
+Verify Zaporozhye region place search
+    Element Should Contain  ${procurententity_place}  Запорізька
+
+Verify Kyiv region place search
+    Element Should Contain  ${procurententity_place}  Київська
 
 ######################################################################
 #                   Verify type of procedure
