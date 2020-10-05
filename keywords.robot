@@ -3,6 +3,8 @@
 Library  SeleniumLibrary
 
 *** Variables ***
+${Browser}  chrome
+${URL}  https://prozorro.gov.ua
 
 ${key_word_search_filter}   xpath=//*[@id="buttons"]/button[1]
 ${value_search}             xpath=//*[@id="buttons"]/button[2]
@@ -71,10 +73,17 @@ ${belowThreshold_procedure_type}    xpath=//*[@id="blocks"]/div[@class="block bl
 ${value_from}   xpath=//*[@id="blocks"]//div[@class="block-date-picker"]/input[1]
 ${value_to}     xpath=//*[@id="blocks"]//div[@class="block-date-picker"]/input[2]
 ${tender_value}   xpath=//*[@class="tender-header-wrap"]//div[@class="col-md-3 col-sm-3 tender--description--cost--wr"]/div/div
-${procurententity_place}    xpath=//*[@class="tender--customer margin-bottom"]/tbody/tr[3]
+${procurententity_place}    xpath=//*[@class="tender--customer margin-bottom"]
 
 
 *** Keywords ***
+
+Test Case Setup
+    Open Browser  ${URL}  ${Browser}
+    Set Window Size  1920  1080
+
+Test Case Teardown
+    Close Browser
 
 Back on Main Page
     Click Element  ${main_page}

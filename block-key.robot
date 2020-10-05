@@ -2,21 +2,17 @@
 Documentation   Тестування фільтра пошуку "Процедура"
 Library  SeleniumLibrary
 Resource  keywords.robot
-
+Documentation  Тестування фільтра пошуку "Процедури"
+Library  SeleniumLibrary
+Resource  keywords.robot
 *** Variables ***
 
-${Browser}  chrome
-${URL}  https://prozorro.gov.ua
-
 *** Test Cases ***
-
-Test Suite Setup
-    Open Browser  ${URL}  ${Browser}
-    Set Window Size  1920  1080
 
 Test Procedure type search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose belowThreshold Procedure type
@@ -24,11 +20,12 @@ Test Procedure type search filter
     Choose first search result
     SLEEP  3s
     Verify belowThreshold Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test aboveThresholdUA search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose aboveThresholdUA Procedure type
@@ -36,11 +33,12 @@ Test aboveThresholdUA search filter
     Choose first search result
     SLEEP  3s
     Verify aboveThresholdUA Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test aboveThresholdEU search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose aboveThresholdEU Procedure type
@@ -48,11 +46,12 @@ Test aboveThresholdEU search filter
     Choose first search result
     SLEEP  3s
     Verify aboveThresholdEU Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test negotiation search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose negotiation Procedure type
@@ -60,11 +59,12 @@ Test negotiation search filter
     Choose first search result
     SLEEP  3s
     Verify negotiation Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test negotiation.quick search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose negotiation.quick Procedure type
@@ -72,11 +72,12 @@ Test negotiation.quick search filter
     Choose first search result
     SLEEP  3s
     Verify negotiation.quick Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test competitiveDialogueUA search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose competitiveDialogueUA Procedure type
@@ -84,11 +85,12 @@ Test competitiveDialogueUA search filter
     Choose first search result
     SLEEP  3s
     Verify competitiveDialogueUA Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test competitiveDialogueEU search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose competitiveDialogueEU Procedure type
@@ -96,11 +98,12 @@ Test competitiveDialogueEU search filter
     Choose first search result
     SLEEP  3s
     Verify competitiveDialogueEU Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test competitiveDialogueUA.stage2 search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose competitiveDialogueUA.stage2 Procedure type
@@ -108,11 +111,12 @@ Test competitiveDialogueUA.stage2 search filter
     Choose first search result
     SLEEP  3s
     Verify competitiveDialogueUA.stage2 Procedure type
-    Back on Main Page
+    Test Case Teardown
 
 Test competitiveDialogueEU.stage2 search filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
+    Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
     Choose competitiveDialogueEU.stage2 Procedure type
@@ -120,11 +124,7 @@ Test competitiveDialogueEU.stage2 search filter
     Choose first search result
     SLEEP  3s
     Verify competitiveDialogueEU.stage2 Procedure type
-    Back on Main Page
-
-Test Suite Teardown
-    Close Browser
-
+    Test Case Teardown
 
 
 *** Keywords ***
