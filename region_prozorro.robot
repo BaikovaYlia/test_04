@@ -2,9 +2,7 @@
 Documentation   Тестування фільтра пошуку "Регіон"
 Library  SeleniumLibrary
 Resource  keywords.robot
-Documentation  Тестування фільтра пошуку "Регіон"
-Library  SeleniumLibrary
-Resource  keywords.robot
+
 
 *** Variables ***
 
