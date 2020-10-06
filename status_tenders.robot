@@ -1,10 +1,8 @@
 *** Settings ***
-Documentation Testing of Status search filter
+Documentation  Testing of Status search filter
 Library  SeleniumLibrary
 Resource  keywords.robot
-Documentation  Тестування фільтра пошуку "Статус"
-Library  SeleniumLibrary
-Resource  keywords.robot
+
 *** Variables ***
 
 *** Test Cases ***

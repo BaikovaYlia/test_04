@@ -2,9 +2,7 @@
 Documentation   Тестування фільтра пошуку "Процедура"
 Library  SeleniumLibrary
 Resource  keywords.robot
-Documentation  Тестування фільтра пошуку "Процедури"
-Library  SeleniumLibrary
-Resource  keywords.robot
+
 *** Variables ***
 
 *** Test Cases ***
