@@ -9,6 +9,8 @@ Resource  keywords.robot
 *** Test Cases ***
 
 Test Region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -20,6 +22,8 @@ Test Region Search Filter
     Test Case Teardown
 
 Test Luhansk region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -31,6 +35,8 @@ Test Luhansk region Search Filter
     Test Case Teardown
 
 Test Poltavska region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -42,6 +48,8 @@ Test Poltavska region Search Filter
     Test Case Teardown
 
 Test Zhytomyr region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -53,6 +61,8 @@ Test Zhytomyr region Search Filter
     Test Case Teardown
 
 Test Volyn region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -64,6 +74,8 @@ Test Volyn region Search Filter
     Test Case Teardown
 
 Test Lviv region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -75,6 +87,8 @@ Test Lviv region Search Filter
     Test Case Teardown
 
 Test Kharkiv region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -86,6 +100,8 @@ Test Kharkiv region Search Filter
     Test Case Teardown
 
 Test Sumy region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -97,6 +113,8 @@ Test Sumy region Search Filter
     Test Case Teardown
 
 Test Kirovograd region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -108,6 +126,8 @@ Test Kirovograd region Search Filter
     Test Case Teardown
 
 Test Transcarpathian region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -119,6 +139,8 @@ Test Transcarpathian region Search Filter
     Test Case Teardown
 
 Test Khmelnytsky region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -130,6 +152,8 @@ Test Khmelnytsky region Search Filter
     Test Case Teardown
 
 Test Odessa region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -141,6 +165,8 @@ Test Odessa region Search Filter
     Test Case Teardown
 
 Test Ivano-Frankivsk region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -152,6 +178,8 @@ Test Ivano-Frankivsk region Search Filter
     Test Case Teardown
 
 Test Kherson region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -163,6 +191,8 @@ Test Kherson region Search Filter
     Test Case Teardown
 
 Test Vinnytsia region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -174,6 +204,8 @@ Test Vinnytsia region Search Filter
     Test Case Teardown
 
 Test Mykolaiv region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -185,6 +217,8 @@ Test Mykolaiv region Search Filter
     Test Case Teardown
 
 Test Rivne region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -196,6 +230,8 @@ Test Rivne region Search Filter
     Test Case Teardown
 
 Test Dnipropetrovsk region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -207,6 +243,8 @@ Test Dnipropetrovsk region Search Filter
     Test Case Teardown
 
 Test Zaporozhye region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
@@ -218,6 +256,8 @@ Test Zaporozhye region Search Filter
     Test Case Teardown
 
 Test Kyiv region Search Filter
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
     Test Case Setup
     Click on place search filter
     SLEEP  3s
