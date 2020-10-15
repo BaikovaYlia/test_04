@@ -378,6 +378,10 @@ Verify Tender Status active.qualification.stand-still
     Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця (період оскарження)
 
 
+wait page contain status dropdown menu
+    Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@class="selectize-dropdown-content"]
+
+
 
 
 
