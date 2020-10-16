@@ -7,7 +7,7 @@ Resource  keywords.robot
 
 *** Test Cases ***
 
-Test Procedure type search filter
+Test_Procedure_type_search_filter
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
     Test Case Setup
@@ -22,7 +22,7 @@ Test Procedure type search filter
 
 Test aboveThresholdUA search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_aboveThresholdUA
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -35,7 +35,7 @@ Test aboveThresholdUA search filter
 
 Test aboveThresholdEU search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_aboveThresholdEU
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -48,7 +48,7 @@ Test aboveThresholdEU search filter
 
 Test negotiation search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_negotiation
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -61,7 +61,7 @@ Test negotiation search filter
 
 Test negotiation.quick search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_negotiation.quick
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -74,7 +74,7 @@ Test negotiation.quick search filter
 
 Test competitiveDialogueUA search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_competitiveDialogueUA
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -87,7 +87,7 @@ Test competitiveDialogueUA search filter
 
 Test competitiveDialogueEU search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_competitiveDialogueEU
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -100,7 +100,7 @@ Test competitiveDialogueEU search filter
 
 Test competitiveDialogueUA.stage2 search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_competitiveDialogueUA.stage2
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
@@ -113,7 +113,7 @@ Test competitiveDialogueUA.stage2 search filter
 
 Test competitiveDialogueEU.stage2 search filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_competitiveDialogueEU.stage2
     Test Case Setup
     Click on Procedure type search filter
     SLEEP  3s
