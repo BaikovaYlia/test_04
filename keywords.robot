@@ -377,9 +377,9 @@ Verify Tender Status active.auction
 Verify Tender Status active.qualification.stand-still
     Element Should Contain  ${tender_status_procedure_type_line}  Кваліфікація переможця (період оскарження)
 
+wait page contain status dropdown menu
+    Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@class="selectize-dropdown-content"]
 
-<<<<<<< Updated upstream
-=======
 wait page contain status dropdown menu
     Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@class="selectize-dropdown-content"]
 
@@ -388,7 +388,7 @@ wait page contain status dropdown menu
 
 wait page contain status dropdown menu
     Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@class="selectize-dropdown-content"]
->>>>>>> Stashed changes
+
 
 Дочекатися результатів
     Wait Until Page Contains  Знайдено:

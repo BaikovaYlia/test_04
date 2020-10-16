@@ -9,10 +9,10 @@ Resource  keywords.robot
 
 Test active tendering status Search Filter
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke
+    [Tags]  search_active_tendeirng
     Test Case Setup
     Click on Status search filter
-    SLEEP  3s
+    wait page contain status dropdown menu
     Choose active tendering status
     Дочекатися результатів пошуку
     Choose first search result
