@@ -380,18 +380,17 @@ Verify Tender Status active.qualification.stand-still
 wait page contain status dropdown menu
     Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@class="selectize-dropdown-content"]
 
-wait page contain status dropdown menu
-    Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-status"]//div[@class="selectize-control single"]//div[@class="selectize-dropdown-content"]
-
 Дочекатися результатів пошуку
     Wait Until Page Contains  Знайдено:
 
-wait page contain status dropdown menu
-    Wait Until Page Contains Element    xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@class="selectize-dropdown-content"]
-
-
-Дочекатися результатів
-    Wait Until Page Contains  Знайдено:
+wait page contain region dropdown menu
+    Wait Until Page Contains Element     xpath=//*[@id="blocks"]/div[@class="block block-region"]//div[@class="selectize-dropdown single"]//div[@class="selectize-dropdown-content"]
 
 Дочекатися відкриття тендеру
-    Wait Until Page Contains  Оголошення про проведення
+    Wait Until Page Contains  Дата оприлюднення:
+
+wait page contain procedure dropdown menu
+    Wait Until Page Contains Element     xpath=//*[@id="blocks"]/div[@class="block block-procedure_t"]//div[@class="selectize-dropdown single"]//div[@class="selectize-dropdown-content"]
+
+
+
